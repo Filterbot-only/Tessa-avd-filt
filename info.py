@@ -49,7 +49,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'TNSHORT.NET')
 SHORTLINK_API = environ.get('SHORTLINK_API', '15c728d0af696e2c4751e0d3a965a0652b393ea7')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
@@ -58,7 +58,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SAM_DUB_LEZHa')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+j1Z12sl21vw1Mjdl')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/SMD_Dulinks/28')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/SMD_Dulinks/25')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', '𝐖𝐡𝐚𝐭 𝐀𝐫𝐞 𝐘𝐨𝐮 𝐋𝐨𝐨𝐤𝐢𝐧𝐠 𝐀 ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001832202316'))
