@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29843112'))
 API_HASH = environ.get('API_HASH', '7519cd035add179edec5c84933ab6622')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6694528458:AAGNXiCJ2NBlEvqcfdvkTjky5PEFJtcmOu8")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6694528458:AAHsBr-hcD1ZZKFBAvKMMVb3VCpC3aiYf2E")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -49,7 +49,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkx.in')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'upshrink.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '0b43fe204c82d7e5f0fb6bd02ca125f4260f871b')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
